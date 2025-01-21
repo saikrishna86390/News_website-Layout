@@ -1,0 +1,122 @@
+/* LOGO */
+.logo {
+  position: relative;
+  top: 20px;
+  left: 20%;
+}
+/* NAV LIST*/
+ul,
+li {
+  list-style: none;
+  display: flex;
+  gap: 20px;
+
+  font-size: 10px;
+
+  position: relative;
+  left: 10%;
+  top: 50px;
+}
+
+/* Breaking news */
+.breaknews {
+  height: 80px;
+  width: 850px;
+  border: 1px solid red;
+  position: relative;
+  left: 20%;
+}
+h6 {
+  background-color: red;
+  color: whitesmoke;
+}
+
+/* Article */
+.newslayout {
+  width: 850px;
+
+  position: relative;
+  left: 20%;
+  top: 5px;
+}
+.mcols {
+  border-left: none;
+}
+.a {
+  height: 300px;
+  /* background-color: aquamarine; */
+}
+.b {
+  height: 300px;
+  /* 
+  background-color: rgb(181, 143, 218); */
+}
+.c {
+  height: 200px;
+  /* background-color: antiquewhite; */
+}
+.d {
+  /* background-color: rgb(190, 223, 157); */
+}
+.e {
+  /* background-color: rgb(230, 233, 48); */
+  width: 100px;
+  padding: 0;
+}
+a,
+span {
+  font-size: 10px;
+}
+.eimg {
+  width: 100px;
+  height: 100px;
+  margin-top: 0;
+  margin-left: 0;
+}
+span.doghead {
+  margin-top: -50px;
+  color: red;
+  position: relative;
+  top: -40px;
+}
+
+.dimages {
+  width: 100px;
+  height: 100px;
+  margin-top: 5px;
+  margin-left: 10px;
+}
+.tdyissues {
+  width: 135px;
+  height: 100px;
+  margin-top: -5px;
+}
+.isshead {
+  font-size: 15px;
+  margin-left: 10px;
+  font-weight: bolder;
+}
+.sanimg {
+  width: 480px;
+  height: 170px;
+}
+footer {
+  width: 100%;
+  height: 200px;
+  background-color: rgb(163, 163, 163);
+}
+.footerNav {
+  gap: 150px;
+  margin-left: -150px;
+}
+.footerNav,
+li {
+  margin-top: -20px;
+  font-size: 13px;
+}
+.footerinfo {
+  font-size: 10px;
+  position: relative;
+  top: 100px;
+  left: 40%;
+}
